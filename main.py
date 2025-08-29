@@ -1,0 +1,23 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/v1/puzzles/now/")
+async def fetchPuzzle(time: str|int):
+    return {
+        "snippets": [
+            {
+                "content": 'I bet on {losing} dogs',
+                "source": '"Puberty"',
+                "by": 'Mitski',
+                "date": '2016',
+            },
+            {
+                "content": "I'm {losing} my temper",
+                "source": 'Trust me bro',
+                "by": 'Me',
+                "date": '2025',
+            },
+        ],
+        "solution": 'losing',
+    }
