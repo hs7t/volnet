@@ -15,7 +15,7 @@ async def main():
 @app.get("/v1/puzzles/latest")
 async def fetchCurrentPuzzle():
     puzzles = readPuzzles()
-    latestPuzzle = puzzles[-1]
+    latestPuzzle = next(reversed(puzzles.values()))
 
     return latestPuzzle
 
