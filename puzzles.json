@@ -1,0 +1,44 @@
+{
+  "2025-09-08": {
+    "snippets": [
+      {
+        "text": "Just this {year}, a study found that living within a mile of a golf course more than doubles a person's odds of developing Parkinson's. One theory is that it is because golf courses use pesticides.",
+        "source": {
+          "publication": "The New York Times Opinion",
+          "author": "Nicholas Kristof"
+        }
+      }
+    ],
+    "word": "year"
+  },
+
+  "2025-09-11": {
+    "snippets": [
+      {
+        "text": "I'm known for my short {rehearsal} times: just six weeks. My last two weeks are famous among theater people because things move at a very high speed.",
+        "source": {
+          "publication": "The New York Times Style Magazine",
+          "author": "Joshua Barone"
+        },
+        "year": "2022"
+      },
+      {
+        "text": "Each loss is a reminder of the one that came before and a {rehearsal} for those yet to come.",
+        "source": {
+          "publication": "The New Republic",
+          "author": "Maggie Doherty"
+        },
+        "year": "2022"
+      },
+      {
+        "text": "The metaphors flowed freely in Janos Szasz's {rehearsal} room.",
+        "source": {
+          "publication": "Washington Post",
+          "author": "Peter Marks"
+        },
+        "year": "2023"
+      }
+    ],
+    "word": "rehearsal"
+  }
+}
