@@ -26,7 +26,7 @@ async def returnLatestPuzzle():
 @app.get("/v1/similarity/{guess}")
 async def checkGuessCloseness(guess: str, solution: str|None = None): 
     if solution == None:
-        solution = (await readLatestPuzzle())["word"]
+        solution = readLatestPuzzle()["word"]
 
     return checkSimilarity(guess, solution)
 
