@@ -23,14 +23,14 @@ async def main():
 async def returnLatestPuzzle():
     return (await readLatestPuzzle())
 
-@app.get("/v1/similarity/")
+@app.get("/v1/similarity/{guess}")
 async def checkGuessCloseness(guess: str, solution: str|None = None): 
     if solution == None:
         solution = (await readLatestPuzzle())["word"]
 
     return checkSimilarity(guess, solution)
 
-@app.get("/v1/puzzles/")
+@app.get("/v1/puzzles/{time}")
 async def fetchPuzzle(time: str|int):
     # TODO: Implement
     return "im sorry"
