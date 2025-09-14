@@ -1,16 +1,17 @@
 import json
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from wordalize import checkSimilarity
+from timekeeping import dateFromYMD
 
 app = FastAPI()
 
-def readPuzzles():
+async def readPuzzles():
     with open('puzzles.json', 'r') as puzzlesJSON:
         puzzles = json.load(puzzlesJSON)
     return puzzles
 
-def readLatestPuzzle():
-    puzzles = readPuzzles()
+async def readLatestPuzzle():
+    puzzles = await readPuzzles()
     latestPuzzle = next(reversed(puzzles.values()))
 
     return latestPuzzle
@@ -21,16 +22,18 @@ async def main():
 
 @app.get("/v1/puzzles/latest")
 async def returnLatestPuzzle():
-    return readLatestPuzzle()
+    return await readLatestPuzzle()
 
 @app.get("/v1/similarity/{guess}")
 async def checkGuessCloseness(guess: str, solution: str|None = None): 
     if solution == None:
-        solution = readLatestPuzzle()["word"]
+        solution = (await readLatestPuzzle())["word"]
 
     return checkSimilarity(guess, solution)
 
 @app.get("/v1/puzzles/{time}")
 async def fetchPuzzle(time: str|int):
-    # TODO: Implement
-    return "im sorry"
+    try:
+        return (await readPuzzles())[dateFromYMD(str(time))]
+    except:
+        raise HTTPException(status_code=404, detail="Couldn't find puzzle")
