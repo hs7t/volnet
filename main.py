@@ -32,8 +32,8 @@ async def checkGuessCloseness(guess: str, solution: str|None = None):
     return checkSimilarity(guess, solution)
 
 @app.get("/v1/puzzles/{time}")
-async def fetchPuzzle(time: str|int):
+async def fetchPuzzle(time: str):
     try:
-        return (await readPuzzles())[dateFromYMD(str(time))]
+        return (await readPuzzles())[time]
     except:
         raise HTTPException(status_code=404, detail="Couldn't find puzzle")
