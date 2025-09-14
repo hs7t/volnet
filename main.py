@@ -21,7 +21,7 @@ async def main():
 
 @app.get("/v1/puzzles/latest")
 async def returnLatestPuzzle():
-    return (await readLatestPuzzle())
+    return readLatestPuzzle()
 
 @app.get("/v1/similarity/{guess}")
 async def checkGuessCloseness(guess: str, solution: str|None = None): 
