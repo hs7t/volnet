@@ -69,5 +69,34 @@
       }
     ],
     "word": "heat"
+  },
+  "2025-09-24": {
+    "snippets": [
+      {
+        "text": "I am there so often that the man who runs the recyclables aisle {know}s my name – and he is seriously unimpressed with my offerings",
+        "source": {
+          "publication": "The Guardian",
+          "author": "Zoe Williams"
+        },
+        "year": "2025"
+      },
+      {
+        "text": "Maybe the act of taking an OLP—twisting off the bottle cap, swallowing the pill—triggers some biomedically useful pathways, just as bloodcurdling movies can curdle (or coagulate) the blood even though the viewer {know}s everything in the film is fake.",
+        "source": {
+          "publication": "WIRED",
+          "author": "Tom Vanderbilt"
+        },
+        "year": "2023"
+      },
+      {
+        "text": "Here’s a timeless dictum that aptly applies to election administration: Everything looks suspicious when you don’t know how anything works.",
+        "source": {
+          "publication": "MSNBC",
+          "author": "Edward Perez"
+        },
+        "year": "2024"
+      }
+    ],
+    "word": "know"
   }
 }
