@@ -1,7 +1,9 @@
 import json
+
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 from wordalize import checkSimilarity
-from timekeeping import dateFromYMD
 
 app = FastAPI()
 
@@ -25,7 +27,7 @@ async def returnLatestPuzzle():
     return await readLatestPuzzle()
 
 @app.get("/v1/similarity/{guess}")
-async def checkGuessCloseness(guess: str, solution: str|None = None): 
+async def checkGuessCloseness(guess: str, solution: str|None = None):
     if solution == None:
         solution = (await readLatestPuzzle())["word"]
 
@@ -37,3 +39,14 @@ async def fetchPuzzle(time: str):
         return (await readPuzzles())[time]
     except:
         raise HTTPException(status_code=404, detail="Couldn't find puzzle")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://volumes.hvii.cc",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
