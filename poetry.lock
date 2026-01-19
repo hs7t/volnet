@@ -340,21 +340,6 @@ dnspython = ">=2.0.0"
 idna = ">=2.0.0"
 
 [[package]]
-name = "en_core_web_lg"
-version = "3.8.0"
-description = "English pipeline optimized for CPU. Components: tok2vec, tagger, parser, senter, ner, attribute_ruler, lemmatizer."
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "en_core_web_lg-3.8.0.tar.gz", hash = "sha256:7a3c89f3243950000a102c5f124277bbbde2dec467d548eee28b23bd1938ed62"},
-]
-
-[package.source]
-type = "url"
-url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0.tar.gz"
-
-[[package]]
 name = "en_core_web_md"
 version = "3.8.0"
 description = "English pipeline optimized for CPU. Components: tok2vec, tagger, parser, senter, ner, attribute_ruler, lemmatizer."
