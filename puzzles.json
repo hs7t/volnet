@@ -1,102 +1,131 @@
 {
-  "2025-09-08": {
-    "snippets": [
-      {
-        "text": "Just this {year}, a study found that living within a mile of a golf course more than doubles a person's odds of developing Parkinson's. One theory is that it is because golf courses use pesticides.",
-        "source": {
-          "publication": "The New York Times Opinion",
-          "author": "Nicholas Kristof"
-        }
-      }
-    ],
-    "word": "year"
-  },
+    "2025-09-08": {
+        "snippets": [
+            {
+                "text": "Just this {year}, a study found that living within a mile of a golf course more than doubles a person's odds of developing Parkinson's. One theory is that it is because golf courses use pesticides.",
+                "source": {
+                    "publication": "The New York Times Opinion",
+                    "author": "Nicholas Kristof"
+                }
+            }
+        ],
+        "word": "year"
+    },
 
-  "2025-09-11": {
-    "snippets": [
-      {
-        "text": "I'm known for my short {rehearsal} times: just six weeks. My last two weeks are famous among theater people because things move at a very high speed.",
-        "source": {
-          "publication": "The New York Times Style Magazine",
-          "author": "Joshua Barone"
-        },
-        "year": "2022"
-      },
-      {
-        "text": "Each loss is a reminder of the one that came before and a {rehearsal} for those yet to come.",
-        "source": {
-          "publication": "The New Republic",
-          "author": "Maggie Doherty"
-        },
-        "year": "2022"
-      },
-      {
-        "text": "The metaphors flowed freely in Janos Szasz's {rehearsal} room.",
-        "source": {
-          "publication": "Washington Post",
-          "author": "Peter Marks"
-        },
-        "year": "2023"
-      }
-    ],
-    "word": "rehearsal"
-  },
-  "2025-09-14": {
-    "snippets": [
-      {
-        "text": "Later on their minds would be made to endorse the judgment of their bodies. ‘We condition them to thrive on {heat},’ concluded Mr. Foster. ‘Our colleagues upstairs will teach them to love it.’",
-        "source": {
-          "publication": "Brave New World",
-          "author": "Aldous Huxley"
-        },
-        "year": "1932"
-      },
-      {
-        "text": "His approving answers reassured me, and I began by degrees to regain confidence, and the vital {heat} returned.",
-        "source": {
-          "publication": "Dialogues [Charmides]",
-          "author": "Plato"
-        },
-        "year": "~380 BCE"
-      },
-      {
-        "text": "Do not use the product if it is emitting smoke, odor, {heat}, or exhibiting any other abnormality. Do not use the product after it has been dropped or otherwise damaged.",
-        "source": {
-          "publication": "CT-S100 Safety Precautions",
-          "author": "CASIO"
-        },
-        "year": "2019"
-      }
-    ],
-    "word": "heat"
-  },
-  "2025-09-24": {
-    "snippets": [
-      {
-        "text": "I am there so often that the man who runs the recyclables aisle {know}s my name – and he is seriously unimpressed with my offerings.",
-        "source": {
-          "publication": "The Guardian",
-          "author": "Zoe Williams"
-        },
-        "year": "2025"
-      },
-      {
-        "text": "Maybe the act of taking an OLP—twisting off the bottle cap, swallowing the pill—triggers some biomedically useful pathways, just as bloodcurdling movies can curdle (or coagulate) the blood even though the viewer {know}s everything in the film is fake.",
-        "source": {
-          "publication": "WIRED",
-          "author": "Tom Vanderbilt"
-        },
-        "year": "2023"
-      },
-      {
-        "text": "Here’s a timeless dictum that aptly applies to election administration: Everything looks suspicious when you don’t know how anything works.",
-        "source": {
-          "publication": "MSNBC",
-          "author": "Edward Perez"
-        },
-        "year": "2024"
-      }
-    ],
-    "word": "know"
-  }
+    "2025-09-11": {
+        "snippets": [
+            {
+                "text": "I'm known for my short {rehearsal} times: just six weeks. My last two weeks are famous among theater people because things move at a very high speed.",
+                "source": {
+                    "publication": "The New York Times Style Magazine",
+                    "author": "Joshua Barone"
+                },
+                "year": "2022"
+            },
+            {
+                "text": "Each loss is a reminder of the one that came before and a {rehearsal} for those yet to come.",
+                "source": {
+                    "publication": "The New Republic",
+                    "author": "Maggie Doherty"
+                },
+                "year": "2022"
+            },
+            {
+                "text": "The metaphors flowed freely in Janos Szasz's {rehearsal} room.",
+                "source": {
+                    "publication": "Washington Post",
+                    "author": "Peter Marks"
+                },
+                "year": "2023"
+            }
+        ],
+        "word": "rehearsal"
+    },
+    "2025-09-14": {
+        "snippets": [
+            {
+                "text": "Later on their minds would be made to endorse the judgment of their bodies. ‘We condition them to thrive on {heat},’ concluded Mr. Foster. ‘Our colleagues upstairs will teach them to love it.’",
+                "source": {
+                    "publication": "Brave New World",
+                    "author": "Aldous Huxley"
+                },
+                "year": "1932"
+            },
+            {
+                "text": "His approving answers reassured me, and I began by degrees to regain confidence, and the vital {heat} returned.",
+                "source": {
+                    "publication": "Dialogues [Charmides]",
+                    "author": "Plato"
+                },
+                "year": "~380 BCE"
+            },
+            {
+                "text": "Do not use the product if it is emitting smoke, odor, {heat}, or exhibiting any other abnormality. Do not use the product after it has been dropped or otherwise damaged.",
+                "source": {
+                    "publication": "CT-S100 Safety Precautions",
+                    "author": "CASIO"
+                },
+                "year": "2019"
+            }
+        ],
+        "word": "heat"
+    },
+    "2025-09-24": {
+        "snippets": [
+            {
+                "text": "I am there so often that the man who runs the recyclables aisle {know}s my name – and he is seriously unimpressed with my offerings.",
+                "source": {
+                    "publication": "The Guardian",
+                    "author": "Zoe Williams"
+                },
+                "year": "2025"
+            },
+            {
+                "text": "Maybe the act of taking an OLP—twisting off the bottle cap, swallowing the pill—triggers some biomedically useful pathways, just as bloodcurdling movies can curdle (or coagulate) the blood even though the viewer {know}s everything in the film is fake.",
+                "source": {
+                    "publication": "WIRED",
+                    "author": "Tom Vanderbilt"
+                },
+                "year": "2023"
+            },
+            {
+                "text": "Here’s a timeless dictum that aptly applies to election administration: Everything looks suspicious when you don’t {know} how anything works.",
+                "source": {
+                    "publication": "MSNBC",
+                    "author": "Edward Perez"
+                },
+                "year": "2024"
+            }
+        ],
+        "word": "know"
+    },
+    "2026-01-19": {
+        "snippets": [
+            {
+                "text": "But even if you fled to ESPN for a bit of sports escapism, you instead saw the Africa Cup of Nations deliver one of the most chaotic soccer {finals} in memory, with Senegal actually storming off the field in protest at one point before edging out host nation Morocco.",
+                "source": {
+                    "publication": "International Intrigue",
+                    "author": "Jeremy Dicker"
+                },
+                "year": "2026"
+            },
+            {
+                "text": "{Finals} one year I got some sort of bacterial infection and wound up with a 102 degree fever and was so week I could barely move.",
+                "source": {
+                    "publication": "Reddit",
+                    "author": "u/nkdeck07"
+                },
+                "year": "2012"
+            },
+            {
+                "text": "The Stern School at New York University held the {finals} of its 11th annual business plan competition on Friday, with a cash prize of $75,000 for best new venture going to a “fashion 2.0” company, ToVieFor, which was co-founded by Melanie Moore and Susanne Greenfield.",
+                "source": {
+                    "publication": "The New York Times",
+                    "author": "Lora Kolodny"
+                },
+                "year": "2010"
+            }
+        ],
+        "word": "finals"
+    }
 }
